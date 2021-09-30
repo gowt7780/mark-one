@@ -5,12 +5,12 @@ var score = 0;
 // data of high score
 var highScores = [
   {
-    name: "Tanay",
+    name: "Sush",
     score: 3,
   },
 
   {
-    name: "Akash",
+    name:"Mohith",
     score: 2,
   },
 ]
@@ -18,10 +18,10 @@ var highScores = [
 // array of objects
 var questions = [{
   question: "Where do I live? ",
-  answer: "Bangalore"
+  answer: "Nellore"
 }, {
   question: "My favorite superhero would be? ",
-  answer: "Dhruv"
+  answer: "Thor"
 },
 {
   question: "Where do I work? ",
@@ -31,7 +31,7 @@ var questions = [{
 function welcome() {
  var userName = readlineSync.question("What's your name? ");
 
-  console.log("Welcome "+ userName + " to DO YOU KNOW Tanay?");
+  console.log("Welcome "+ userName + " to : Do you know Gowtham ?");
 }
 
 
