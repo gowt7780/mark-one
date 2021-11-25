@@ -26,7 +26,18 @@ var questions = [{
 {
   question: "Where do I work? ",
   answer: "Microsoft"
-}];
+},
+{
+ question:"What is my favorite color?  ",
+ answer:"white"
+},
+{
+  question:"What is my favorite IPL team? ",
+  answer:"CSK"
+
+}
+
+];
 
 function welcome() {
  var userName = readlineSync.question("What's your name? ");
@@ -39,7 +50,7 @@ function welcome() {
 function play(question, answer) {
   var userAnswer = readlineSync.question(question);
 
-  if (userAnswer.toUpperCase() === answer.toUpperCase()) { // branching
+  if (userAnswer.toUpperCase() === answer.toUpperCase()) { 
     console.log("right!");
     score = score + 1;
     
